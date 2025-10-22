@@ -43,7 +43,7 @@ const SelectUI = styled.div`
   background-color: ${COLORS.transparentGray15};
   color: ${COLORS.gray700};
   font-size: ${16 / 16}rem;
-  border-radius: 2px;
+  border-radius: 8px;
   padding-right: 52px;
 
   ${SelectWrapper}:focus + & {
