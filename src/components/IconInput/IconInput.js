@@ -12,14 +12,14 @@ const computedStyles = {
     padding: "4px 0 4px 24px",
     iconSize: 16,
     fontSize: 14 / 16,
-    height: "24px",
+    height: 24 / 16,
   },
   large: {
     border: "2px",
     padding: "4px 0 4px 36px",
     iconSize: 24,
     fontSize: 18 / 16,
-    height: "36px",
+    height: 36 / 16,
   },
 };
 
@@ -45,7 +45,7 @@ const IconInput = ({
           "--width": width + "px",
           "--padding": styles.padding,
           "--font-size": styles.fontSize + "rem",
-          "--height": styles.height,
+          "--height": styles.height + "rem",
         }}
       />
     </Wrapper>
