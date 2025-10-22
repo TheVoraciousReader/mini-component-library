@@ -47,8 +47,9 @@ const SelectUI = styled.div`
   padding-right: 52px;
 
   ${SelectWrapper}:focus + & {
-    outline: 1px dotted #212121;
-    outline: 5px auto currentColor;
+    outline: 1px dotted #212121; /* fallback */
+    outline: 5px auto Highlight; /* firefox */
+    outline: 5px auto -webkit-focus-ring-color; /* works on webkit based browsers - chrome, safari */
   }
 
   ${SelectWrapper}:hover + & {
